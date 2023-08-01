@@ -3,9 +3,6 @@ class Solution {
         String str="";
         for(int i=0;i<command.length();i++){
             char ch=command.charAt(i);
-            if(ch==')'){
-                continue;
-            }
             if(ch=='G'){
                 str=str+ch;
             }
